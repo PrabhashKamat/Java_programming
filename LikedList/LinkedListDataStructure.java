@@ -6,11 +6,11 @@ class Node{
         this.val = val;
     }
 }
-class Linkedlist{
+class SinglyLinkedlist {
     Node head;   // null
     Node tail;
     int size;  // null
-    Linkedlist(){
+    SinglyLinkedlist(){
 
     }
     int search(int val){
@@ -115,19 +115,19 @@ class Linkedlist{
 
 public class LinkedListDataStructure {
     public static void main(String[] arg){
-        Linkedlist l1 = new Linkedlist();
-        l1.addAtTail(20);
-        l1.addAtTail(30);
-        l1.addAtHead(10);
-        // l1.display();
+        SinglyLinkedlist l1 = new SinglyLinkedlist();
+//      l1.addAtTail(20);
+//      l1.addAtTail(30);
+//      l1.addAtHead(10);
+//      l1.display();
 //      l1.deleteAtHead();
 //      System.out.println(l1.size);
 //      System.out.println(l1.search(10));
         l1.addAtIndex(3,40);
         l1.display();
         System.out.println(l1.size);
-//        l1.deleteAtTail();
-        l1.deleteAtIndex(1);
+//      l1.deleteAtTail();
+//      l1.deleteAtIndex(4);
         l1.display();
 
     }
