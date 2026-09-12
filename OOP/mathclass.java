@@ -1,5 +1,4 @@
 package OOP;
-
 import java.util.Scanner;
 
 class Math{

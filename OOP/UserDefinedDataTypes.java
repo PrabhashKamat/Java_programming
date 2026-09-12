@@ -1,7 +1,5 @@
 package OOP;
 import java.util.Scanner;
-import static java.text.ChoiceFormat.nextDouble;
-
 public class UserDefinedDataTypes {
     public static class Student{
         String name;
