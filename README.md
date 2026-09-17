@@ -18,6 +18,8 @@ This repository contains my Java programming practice and learning journey.
 - Loops
 - Linked List
 - Object-Oriented Programming (OOP)
+- Stacks
+- Queue
 
 ## 📂 Project Structure
 
@@ -37,6 +39,8 @@ Java_Programming/
 ├── If_Else/
 ├── Loops/
 ├── LinkedList/
+|__ Stacks
+|__ Queues
 └── OOP/
 
 🛠️ Language Used
